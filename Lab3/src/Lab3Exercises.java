@@ -5,7 +5,9 @@ public class Lab3Exercises {
 		JFrame myFrame = new JFrame("Héctor");
 		myFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		myFrame.setLocation(650, 300);
-		myFrame.setSize(200, 200);
+		myFrame.setSize(400, 240);
+		MyPanelClass myPanel = new MyPanelClass();
+        myFrame.getContentPane().add(myPanel);
 		myFrame.setVisible(true);
 	}
 }
